@@ -5,7 +5,8 @@ from collections import namedtuple
 
 from PIL import Image
 
-from devices import heimdallDevice
+#from devices import heimdallDevice
+from heimdall.devices import heimdallDevice #update for Python 3
 
 Screenshot = namedtuple('Screenshot', ['path', 'directory', 'filename', 'ext'])
 
